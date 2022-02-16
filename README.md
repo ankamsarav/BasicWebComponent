@@ -9,4 +9,3 @@ They are nothing but a custom component created by us and given to the browser
     b. use the value of the name attribute in the slot as shown above to pass the html 
         ex: <my-popup><span slot='message'><h1>I'm dynamic</h1></span></my-popup>
 ## connectedCallBack is the method which can be used to do something after the component finished rendering in the window
-    
