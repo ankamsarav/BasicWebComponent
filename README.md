@@ -10,7 +10,7 @@ They are nothing but a custom component created by us and given to the browser
         ex: <my-popup><span slot='message'><h1>I'm dynamic</h1></span></my-popup>
 ## connectedCallBack is the method which can be used to do something after the component finished rendering in the window
 ### Example
-
+```
 class Bubble extends HTMLElement {
     constructor(){
         super();
@@ -47,3 +47,5 @@ class Bubble extends HTMLElement {
 };
 
 window.customElements.define('custom-bubble', Bubble);
+
+```
